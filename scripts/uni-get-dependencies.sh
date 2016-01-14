@@ -76,10 +76,11 @@ get_debian_deps()
  apt-get -y install \
   build-essential curl libffi-dev \
   libxmu-dev cmake bison flex git-core libboost-all-dev \
-  libXi-dev libmpfr-dev libboost-dev libglew-dev \
+  libxi-dev libmpfr-dev libboost-dev libglew-dev \
   libeigen3-dev libcgal-dev libopencsg-dev libgmp3-dev libgmp-dev \
   imagemagick libfontconfig-dev libfreetype6-dev \
-  gtk-doc-tools libglib2.0-dev gettext xvfb pkg-config ragel
+  gtk-doc-tools libglib2.0-dev gettext xvfb pkg-config ragel \
+  qt5-default libqt5scintilla2-dev libharfbuzz-dev itstool
 }
 
 get_debian_7_deps()
